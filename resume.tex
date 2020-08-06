@@ -1,0 +1,176 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\usepackage[charter]{mathdesign} % Bitstream Charter
+% \usepackage{newpxtext,newpxmath} % Palatino
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\evensidemargin}{-0.50in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+  \item[]\small{
+    \hspace{2pt}\textbf{#1}{: #2 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item[]
+  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{-10pt}\textbf{#1} & #2 \\
+      \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-1pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% custom commands
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  \small \textbf{\huge Shashank Priyadarshi} \\ 
+  {(+91) 9936596075} | \href{mailto:s.priyadarshi629@gmail.com}{s.priyadarshi629@gmail.com} | \href{https://robustTechie.github.io}{robustTechie.github.io} \\
+  \href{https://www.linkedin.com/in/robustTechie/}{linkedin.com/in/robustTechie} | \href{https://github.com/robustTechie}{github.com/robustTechie} | \href{https://twitter.com/robustTechie}{twitter.c/robustTechie} \\
+
+ 
+\end{center}
+
+
+%-----------SUMMARY-----------------
+\shorterSection{Summary}
+\small Seeking a position in the field of Computer Science where I can utilize my skills to further work to-wards personal and professional development and contribute towards the prosperity of the organization. Highly motivated and eager to learn new things.
+\vspace{3pt}
+
+%-----------EDUCATION-----------------
+\shorterSection{Education}
+ \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Amrita Vishwa Vidyapeetham}{Amritapuri, Kollam, India.}
+      {Bachelors of Technology in Computer Science with specialization in AI;  GPA: 9.2/10.0}{Expected May 2023}{}
+
+    \resumeSubheading
+      {Sunbeam English School}{Varanasi, (U.P.), India.}
+      {Higher Secondary;  Marks: 92.6\%}{May 2018}{}
+      
+    \resumeSubheading
+      {Imperial Public School}{Varanasi, (U.P.), India.}
+      {Secondary; Marks: 10CGPA}{May 2016}{}
+
+  \resumeSubHeadingListEnd
+  
+  
+%-----------EXPERIENCE-----------------
+\shorterSection{Experience}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Google Summer of Code participant}{The Mifos Initiative}
+      {Student Developer}{May 2020 - ongoing}
+      \vspace{-1pt}
+      
+    Open source contributor to the android client application for the field officers.  During this period I introduced new features related to GIS support, notification integration, KYC/onboarding feature, UI enhancements, dark mode, localization support, and few other minor features which made this application upgrade to its version 7.
+
+
+    \resumeSubheading
+      {Member at amFOSS.}{}
+      {Android Developer}{August 2019 - Present}
+
+      amFOSS is the Free and Open Source Software club of my college. I have been an active member of the community from the time I joined college. I actively take part in all events and also help in organizing events hosted by amFOSS.
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------ACADEMIC PROJECTS AND INTERNSHIPS-----------------
+\shorterSection{Projects}
+  \resumeSubHeadingListStart
+  
+  \resumeSubItem{Gaming Module}{This is a cost-efficient game module using Arduino which supports various games. Video games are the most rapidly growing industries in the world, which led us to develop this module. Currently, it contains three games - Flappy bird, super Mario, and tic tac toe. More improvements are under the development phase. Tech stack used- Arduino UNO, C, C++.}
+  
+  \resumeSubItem{Temple App}{This android app provides a cost-efficient way of maintaining records of poojas, donations made by people, and also all the financial records in temples. I am one of the top contributor to this project.}   
+      
+    \resumeSubItem{Health Log}{ The smart and efficient android app provided to hospitals to maintain the logs of covid19 patients. Hospital authority can store new patient and it will automatically assign the doctor to each patient. Doctors can also check the allotted patient and fill the recent logs of each patient in each visit which will update the family members by the patient's report. Tech stack - Android, XML, Firestore}    
+
+    \resumeSubItem{Moodify}{An android app which will boost your current mood. Whether you are happy, sad, angry, surprised, it will present you with quotes, videos, and posts that will improve your mood to a great extent. This application uses emotion recognition to predict the emotion of the user by scanning their face. Tech Stack - Android, Flask API, Face detection API}
+	
+    \resumeSubItem{MomentO}{This is a Java-based desktop application. With the help of this application, one can find the Moment of inertia and center of mass of a given figure about an axis or any point defined by the user. It provides some basic shapes like rectangular channel, triangular channel, and a user can also define a new shape. Tech stack- Java, Netbeans.}
+    
+    \resumeSubItem{Biomation}{This is a bioinformatics tool (web app) to solve various problems related to hidden messages in DNA. It processes large data-sets of big Genomes very efficiently. It supports various features like pattern count, hamming distance, clump finding, etc. Tech Stack used - Python, Django, HTML, CSS}
+    
+  \resumeSubHeadingListEnd
+
+
+%-----------SKILLS-----------------
+\shorterSection{Skills}
+  \resumeSubHeadingListStart
+  \small
+    \item{\textbf{Languages}{: Python, Java, Kotlin, C++, C, Bash.}}
+    \vspace{-4pt}
+    \item{\textbf{Skills}{: Android Development, Data driven Astronomy, 3D Drawing, Desktop Publishing, Problem Solving}}
+    \vspace{-5pt}
+    \item{\textbf{Tools \& Technologies}{: Git, GitHub, GitLab}}
+\resumeSubHeadingListEnd
+
+
+
+
+%-----------Addtional Experience & Achievements-----------------
+\shorterSection{Additional Experience \& Achievements}
+  \resumeSubHeadingListStart
+  \small
+    \item{Completed Diploma in Computer Management, this is a 2 years course for Networking, Hardware and Software.}
+    \vspace{-5pt}
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
